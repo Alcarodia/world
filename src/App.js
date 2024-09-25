@@ -28,7 +28,7 @@ function App() {
           <div className="nav-scrollable">
             <nav className="vcenter-row">
               <div className="nav-item">
-                <NavLink activeclassname="nav-link.active" className="nav-link" to="/about">
+                <NavLink activeclassname="nav-link.active" className="nav-link" to="about">
                   <span className="nav-title"> ABOUT </span></NavLink>
               </div>
               <div className="nav-item">
@@ -36,15 +36,15 @@ function App() {
                   <span className="nav-title"> PROJECTS </span></NavLink>
               </div>
               <div className="nav-item">
-                <NavLink activeclassname="nav-link.active" className="nav-link" to="/">
+                <NavLink activeclassname="nav-link.active" className="nav-link" to="">
                     <span className="nav-title nav-main"> ALCARODIA </span></NavLink>
               </div>
               <div className="nav-item">
-                <NavLink activeclassname="nav-link.active" className="nav-link" to="/author">
+                <NavLink activeclassname="nav-link.active" className="nav-link" to="author">
                   <span className="nav-title"> AUTHOR </span></NavLink>
               </div>
               <div className="nav-item">
-                <NavLink activeclassname="nav-link.active" className="nav-link" to="/contact">
+                <NavLink activeclassname="nav-link.active" className="nav-link" to="contact">
                   <span className="nav-title"> CONTACT </span></NavLink>
               </div>
             </nav>
@@ -54,11 +54,11 @@ function App() {
         {/* Content */}
         <main className="Content">
           <Routes>
-            <Route path="/about"    element={<HandleNavigation color={'#77DD77'} Path={AboutPage}    />} />
-            <Route path="/projects" element={<HandleNavigation color={'#E8CE72'} Path={ProjectsPage} />} />
-            <Route path="/"    element={<HandleNavigation color={'#001F3F'} Path={HomePage}     />} />
-            <Route path="/author"   element={<HandleNavigation color={'#FD8787'} Path={AuthorPage}   />} />
-            <Route path="/contact"  element={<HandleNavigation color={'#424242'} Path={ContactPage}  />} />
+            <Route path="about"    element={<HandleNavigation color={'#77DD77'} Path={AboutPage}    />} />
+            <Route path="projects" element={<HandleNavigation color={'#E8CE72'} Path={ProjectsPage} />} />
+            <Route path=""         element={<HandleNavigation color={'#001F3F'} Path={HomePage}     />} />
+            <Route path="author"   element={<HandleNavigation color={'#FD8787'} Path={AuthorPage}   />} />
+            <Route path="contact"  element={<HandleNavigation color={'#424242'} Path={ContactPage}  />} />
           </Routes>
         </main>
       </div>
