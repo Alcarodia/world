@@ -1,0 +1,64 @@
+.Separator {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.LeftArrow {
+    width: 20%;
+    margin-left: 5vw;
+    margin-right: 15px;
+}
+
+.RightArrow {
+    width: 20%;
+    transform: scaleX(-1);
+    margin-left: 15px;
+    margin-right: 5vw;
+}
+
+.AlcarodianTitle {
+    color: white;
+    font-size: 69%;
+    text-align: center;
+    font-family: 'Alcarodian';
+    letter-spacing: 5px;
+}
+
+.AlcarodianImage {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.AlcarodianImage:hover {
+    filter: grayscale(0%);
+}
+
+.NoMarginBlock {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+.NoMarginBlockEnd {
+    margin-block-end: 0px;
+}
+
+.NoMarginBlockStart {
+    margin-block-start: 0px;
+}
+
+@media (max-width: 449px) {
+    .LeftArrow {
+        margin-left: 0;
+    }
+    
+    .RightArrow {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,115 @@
+/* Font */
+@font-face {
+  font-family: 'Alcarodian';
+  src: url("../public/fonts/Alcarodian.otf") format('opentype');
+}
+
+/* Page */
+.Page {
+  position: relative;
+  align-content: space-around;
+}
+
+.Background {
+  z-index: -1;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #001F3F;
+}
+
+.Content {
+  display: flex;
+  padding-top: 1.1rem;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+@media (max-width: 569px) {
+  .Content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* Navbar */
+nav {
+  z-index: 1;
+  display: flex;
+  position: sticky;
+  flex-direction: row;
+}
+
+.nav-scrollable {
+  display: none;
+}
+
+.Sidebar {
+  height: 10vh;
+  margin: 3%;
+}
+
+.nav-scrollable {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nav Item */
+.nav-item {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* I love the font MOGRythm (Alcarodia) so much, however, the way its glyphs are cropped is weird. 
+   It has bugs I tried to fix with FontForge, but this solution is enough to keep it centered.
+   Without this, if you count the pixels, the navbar seems off by like 12px to the left. */
+@media (min-width: 1099px) {
+  .nav-item {
+    margin-left: 2rem;
+  }
+}
+
+.nav-link:hover {
+  color: #424242;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+}
+
+.nav-link.active {
+  color: white;
+}
+
+.nav-title {
+  font-size: 2vw;
+  font-family: 'Alcarodian', sans-serif;
+  animation: shadow-pulse 6s infinite ease-in-out, breathe 6s infinite ease-in-out;
+}
+
+.nav-main {
+  font-size: 4vw;
+}
+
+@keyframes shadow-pulse {
+  50% {
+      text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes breathe {
+  50% {
+    letter-spacing: 0.01em;
+  }
+}
+
+.vcenter-row {
+  align-items: center;
+}
