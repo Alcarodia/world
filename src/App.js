@@ -37,7 +37,7 @@ function App() {
                     <span className="nav-title"> PROJECTS </span></NavLink>
                 </div>
                 <div className="nav-item">
-                  <NavLink activeclassname="nav-link.active" className="nav-link" to="">
+                  <NavLink activeclassname="nav-link.active" className="nav-link" to="/world">
                       <span className="nav-title nav-main"> ALCARODIA </span></NavLink>
                 </div>
                 <div className="nav-item">
@@ -57,7 +57,7 @@ function App() {
             <Routes>
               <Route path="/about"    element={<HandleNavigation color={'#77DD77'} Path={AboutPage}    />} />
               <Route path="/projects" element={<HandleNavigation color={'#E8CE72'} Path={ProjectsPage} />} />
-              <Route path=""          element={<HandleNavigation color={'#001F3F'} Path={HomePage}     />} />
+              <Route path="/world"    element={<HandleNavigation color={'#001F3F'} Path={HomePage}     />} />
               <Route path="/author"   element={<HandleNavigation color={'#FD8787'} Path={AuthorPage}   />} />
               <Route path="/contact"  element={<HandleNavigation color={'#424242'} Path={ContactPage}  />} />
             </Routes>
