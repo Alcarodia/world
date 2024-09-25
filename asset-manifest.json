@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/world/static/css/main.f86028e3.css",
-    "main.js": "/world/static/js/main.3ee12c71.js",
-    "static/js/453.90ec8cea.chunk.js": "/world/static/js/453.90ec8cea.chunk.js",
+    "main.css": "/world/static/css/main.fe60e4de.css",
+    "main.js": "/world/static/js/main.f02428a6.js",
     "static/media/Alcarodian.otf": "/world/static/media/Alcarodian.96e08218027fff41bd8f.otf",
     "static/media/alcarodia-piece.svg": "/world/static/media/alcarodia-piece.6ee639f534df93dafc87.svg",
     "static/media/ring-piece.svg": "/world/static/media/ring-piece.01d95f8dae01be4b673f.svg",
     "static/media/world-piece.svg": "/world/static/media/world-piece.345ed4eb105d9466f7f1.svg",
     "index.html": "/world/index.html",
-    "main.f86028e3.css.map": "/world/static/css/main.f86028e3.css.map",
-    "main.3ee12c71.js.map": "/world/static/js/main.3ee12c71.js.map",
-    "453.90ec8cea.chunk.js.map": "/world/static/js/453.90ec8cea.chunk.js.map"
+    "main.fe60e4de.css.map": "/world/static/css/main.fe60e4de.css.map",
+    "main.f02428a6.js.map": "/world/static/js/main.f02428a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f86028e3.css",
-    "static/js/main.3ee12c71.js"
+    "static/css/main.fe60e4de.css",
+    "static/js/main.f02428a6.js"
   ]
 }
