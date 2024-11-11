@@ -37,8 +37,8 @@ const FeaturedAuthorCard = ({ author, desc, href, img, socials }) => {
                     <p className={`${Global.NoMarginBlockStart} ${Global.AlcarodianTitle} ${Style.SocialsBar}`}>
                         {socials.map((icon, index) => (
                             icon[1] !== "" ?
-                                <a href={icon[1]} target="_blank" rel="noopener noreferrer">
-                                    <img className={`${Global.ToolIcon}`} key={index} src={icon[0]} alt={`icon-${index}`} />
+                                <a href={icon[1]} key={index} target="_blank" rel="noopener noreferrer">
+                                    <img className={`${Global.ToolIcon}`} src={icon[0]} alt={`icon-${index}`} />
                                 </a>
                                 : /* ELSE */
                                 <img className={`${Global.ToolIcon}`} key={index} src={icon[0]} alt={`icon-${index}`} />

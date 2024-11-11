@@ -1,5 +1,5 @@
 export const featured = {
-    id: 0,
+    id: 100,
     author: "OSCAR ANTONIO HINOJOSA SALUM",
     desc: "THE FATHER OF ALCARODIA",
     img: "images/author/Ca.webp",
