@@ -1,9 +1,9 @@
 import './App.css';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/content/AboutPage';
-import AuthorPage from './pages/content/AuthorPage';
-import ContactPage from './pages/content/ContactPage';
-import ProjectsPage from './pages/content/ProjectsPage';
+import HomePage from './pages/home/HomePage';
+import AboutPage from './pages/about/AboutPage';
+import AuthorPage from './pages/author/AuthorPage';
+import ContactPage from './pages/contact/ContactPage';
+import ProjectsPage from './pages/projects/ProjectsPage';
 import React, { useState, useEffect } from 'react';
 import { Route, Routes, NavLink } from 'react-router-dom';
 

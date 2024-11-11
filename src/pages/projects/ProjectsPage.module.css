@@ -1,0 +1,59 @@
+.ProjectsPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectsPageContentCardRowFeatured {
+    display: flex;
+    justify-content: center;
+}
+
+.ProjectsPageContentCardFeatured {
+    width: 50%;   
+}
+
+.ProjectsPageContentCardRow {
+    display: grid;
+    justify-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.ProjectsPageContentCard {
+    max-width: 512px;
+}
+
+.ProjectsPageContentCard, .ProjectsPageContentCardFeatured {
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.ProjectsPageContentCardDescription {
+    margin: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ToolsBar {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1219px) {
+    .ProjectsPageContentCardFeatured {
+        width: 100%;   
+    }
+
+    .ProjectsPageContentCardRow {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .ProjectsPageContentCard {
+        width: 100%;
+        margin: 5%;
+        max-width: 100%;
+    }
+}

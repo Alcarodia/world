@@ -1,0 +1,73 @@
+.AuthorPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.AuthorTitle, .CategoryTitle {
+    color: white;
+    margin: 15px;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Alcarodian';
+    margin-right: -5px;  /* ? Counters the extra ws letter-spacing adds, uncentering the text */
+    letter-spacing: 5px;
+}
+
+.AuthorTitle {
+    margin: 0px;
+    font-size: 75%;
+}
+
+.AuthorPageContentCardRowFeatured {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.AuthorPageContentCardFeatured {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.AuthorPageContentCardRow {
+    display: grid;
+    justify-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.AuthorPageContentCardDescription {
+    margin: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.SocialsBar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1280px) {
+    .AuthorTitle {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 999px) {
+    .AuthorPageContentCardFeatured {
+        width: 100%;   
+    }
+
+    .CategoryTitle {
+        font-size: 1.2em;
+    }
+
+    .AuthorPageContentCard {
+        width: 100%;
+        margin: 5%;
+        max-width: 100%;
+    }
+}
