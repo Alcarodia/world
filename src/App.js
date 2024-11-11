@@ -29,10 +29,10 @@ function App() {
         <div className="Sidebar">
           <div className="nav-scrollable">
             <nav className="vcenter-row">
-              <div className="nav-item">
+              {/* <div className="nav-item">
                 <NavLink activeclassname="nav-link.active" className="nav-link" to="about">
                   <span className="nav-title"> ABOUT </span></NavLink>
-              </div>
+              </div> */}
               <div className="nav-item">
                 <NavLink activeclassname="nav-link.active" className="nav-link" to="projects">
                   <span className="nav-title"> PROJECTS </span></NavLink>
@@ -45,10 +45,10 @@ function App() {
                 <NavLink activeclassname="nav-link.active" className="nav-link" to="author">
                   <span className="nav-title"> AUTHOR </span></NavLink>
               </div>
-              <div className="nav-item">
+              {/* <div className="nav-item">
                 <NavLink activeclassname="nav-link.active" className="nav-link" to="contact">
                   <span className="nav-title"> CONTACT </span></NavLink>
-              </div>
+              </div> */}
             </nav>
           </div>
         </div>
