@@ -1,8 +1,8 @@
 import './App.css';
 import HomePage from './pages/home/HomePage';
-// import AboutPage from './pages/about/AboutPage';  // TBD
+import AboutPage from './pages/about/AboutPage';
 import AuthorPage from './pages/author/AuthorPage';
-// import ContactPage from './pages/contact/ContactPage';  // TBD
+import ContactPage from './pages/contact/ContactPage';
 import ProjectsPage from './pages/projects/ProjectsPage';
 import React, { useState, useEffect } from 'react';
 import { Route, Routes, NavLink } from 'react-router-dom';
@@ -29,10 +29,10 @@ function App() {
         <div className="Sidebar">
           <div className="nav-scrollable">
             <nav className="vcenter-row">
-              {/* <div className="nav-item">
+              <div className="nav-item">
                 <NavLink activeclassname="nav-link.active" className="nav-link" to="about">
                   <span className="nav-title"> ABOUT </span></NavLink>
-              </div> */}
+              </div>
               <div className="nav-item">
                 <NavLink activeclassname="nav-link.active" className="nav-link" to="projects">
                   <span className="nav-title"> PROJECTS </span></NavLink>
@@ -45,10 +45,10 @@ function App() {
                 <NavLink activeclassname="nav-link.active" className="nav-link" to="author">
                   <span className="nav-title"> AUTHOR </span></NavLink>
               </div>
-              {/* <div className="nav-item">
+              <div className="nav-item">
                 <NavLink activeclassname="nav-link.active" className="nav-link" to="contact">
                   <span className="nav-title"> CONTACT </span></NavLink>
-              </div> */}
+              </div>
             </nav>
           </div>
         </div>
@@ -56,11 +56,11 @@ function App() {
         {/* Content */}
         <main className="Content">
           <Routes>
-            {/* <Route path="about"    element={<HandleNavigation color={'#77DD77'} image={''} Path={AboutPage}    />} /> */}
+            <Route path="about"    element={<HandleNavigation color={'#77DD77'} image={''} Path={AboutPage}    />} />
             <Route path="projects" element={<HandleNavigation color={'#E8CE72'} image={''} Path={ProjectsPage} />} />
             <Route path=""         element={<HandleNavigation color={'#001F3F'} image={''} Path={HomePage} />} />
             <Route path="author"   element={<HandleNavigation color={'#FD8787'} image={''} Path={AuthorPage}   />} />
-            {/* <Route path="contact"  element={<HandleNavigation color={'#424242'} image={''} Path={ContactPage}  />} /> */}
+            <Route path="contact"  element={<HandleNavigation color={'#424242'} image={''} Path={ContactPage}  />} />
           </Routes>
         </main>
       </div>
