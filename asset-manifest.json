@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/world/static/css/main.f64be774.css",
-    "main.js": "/world/static/js/main.da46ab2b.js",
+    "main.css": "/world/static/css/main.7441f3c2.css",
+    "main.js": "/world/static/js/main.41627ee5.js",
     "static/js/453.90ec8cea.chunk.js": "/world/static/js/453.90ec8cea.chunk.js",
     "static/media/Alcarodian.otf": "/world/static/media/Alcarodian.96e08218027fff41bd8f.otf",
     "static/media/alcarodia-piece.svg": "/world/static/media/alcarodia-piece.6ee639f534df93dafc87.svg",
     "static/media/ring-piece.svg": "/world/static/media/ring-piece.01d95f8dae01be4b673f.svg",
     "static/media/world-piece.svg": "/world/static/media/world-piece.345ed4eb105d9466f7f1.svg",
     "index.html": "/world/index.html",
-    "main.f64be774.css.map": "/world/static/css/main.f64be774.css.map",
-    "main.da46ab2b.js.map": "/world/static/js/main.da46ab2b.js.map",
+    "main.7441f3c2.css.map": "/world/static/css/main.7441f3c2.css.map",
+    "main.41627ee5.js.map": "/world/static/js/main.41627ee5.js.map",
     "453.90ec8cea.chunk.js.map": "/world/static/js/453.90ec8cea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f64be774.css",
-    "static/js/main.da46ab2b.js"
+    "static/css/main.7441f3c2.css",
+    "static/js/main.41627ee5.js"
   ]
 }
