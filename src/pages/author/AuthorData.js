@@ -1,9 +1,8 @@
 export const featured = {
-    id: 100,
+    id: 0,
     author: "OSCAR ANTONIO HINOJOSA SALUM",
     desc: "THE FATHER OF ALCARODIA",
     img: "images/author/Ca.webp",
-    href: "https://github.com/Caferino/Area-51",
     socials: [
         ["images/author/icons/github.svg", "https://github.com/Caferino"],
         ["images/author/icons/linkedin.svg", "https://www.linkedin.com/in/caferino/"],

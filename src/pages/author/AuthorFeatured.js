@@ -1,17 +1,11 @@
 import Global from '../Global.module.css';
 import Style from './AuthorPage.module.css';
 
-const FeaturedAuthorCard = ({ author, desc, href, img, socials }) => {
+const AuthorFeatured = ({ author, desc, img, socials }) => {
     return (
         <div className={[Global.Card, Style.AuthorPageContentCardFeatured].join(' ')}>
             { /* Image */ }
-            {href !== "" ?
-                <a href={href} target="_blank" rel="noopener noreferrer">
-                    <img className={Global.AlcarodianImage} src={img} alt="" />
-                </a>
-                : /* ELSE */
-                <img className={Global.AlcarodianImage} src={img} alt="" />
-            }
+            <img className={Global.AlcarodianImage} src={img} alt="" />
 
             { /* Content */ }
             <div className={Style.AuthorPageContentCardDescription}>
@@ -50,4 +44,4 @@ const FeaturedAuthorCard = ({ author, desc, href, img, socials }) => {
     );
 };
 
-export default FeaturedAuthorCard;
+export default AuthorFeatured;

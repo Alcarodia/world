@@ -1,21 +1,24 @@
 import Global from '../Global.module.css';
 import Style from './ProjectsPage.module.css';
 
-const ProjectCard = ({ project, desc, href, img, tools }) => {
+const ProjectFeatured = ({ project, desc, href, vid, tools }) => {
     return (
-        <div className={Style.ProjectsPageContentCard}>
+        <div className={Style.ProjectsPageContentCardFeatured}>
             <div className={Global.Card}>
                 { /* Image */ }
-                {href !== "" ?
-                    <a href={href} target="_blank" rel="noopener noreferrer">
-                        <img className={Global.AlcarodianImage} src={img} alt="" />
-                    </a>
-                    : /* ELSE */
-                    <img className={Global.AlcarodianImage} src={img} alt="" />
-                }
+                <a href={href} target="_blank" rel="noopener noreferrer">
+                    <video
+                        src={vid}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className={Global.AlcarodianImage}
+                    />
+                </a>
 
                 { /* Content */ }
-                <div className={Style.ProjectsPageContentCardDescription}>
+                <div className={Style.ProjectsPageContentCarddesc}>
                     { /* Title */ }
                     <div className={Global.AlcarodianTitle}>
                         <h1 className={Global.NoMarginBlock}>
@@ -47,4 +50,4 @@ const ProjectCard = ({ project, desc, href, img, tools }) => {
     );
 };
 
-export default ProjectCard;
+export default ProjectFeatured;

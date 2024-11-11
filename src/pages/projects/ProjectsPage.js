@@ -1,20 +1,20 @@
 import Style from './ProjectsPage.module.css';
 import ProjectCard from './ProjectCard';
-import FeaturedProjectCard from './FeaturedProjectCard';
-import { featured_project, projects } from './ProjectsData';
+import ProjectFeatured from './ProjectFeatured';
+import { featured, projects } from './ProjectsData';
 
 const ProjectsPage = () => {
     return (
         <div className={Style.ProjectsPage}>
 
             <div className={Style.ProjectsPageContentCardRowFeatured}>
-                <FeaturedProjectCard
-                    key={featured_project.id}
-                    project={featured_project.project}
-                    description={featured_project.description}
-                    href={featured_project.href}
-                    videoSrc={featured_project.videoSrc}
-                    toolIcons={featured_project.toolIcons}
+                <ProjectFeatured
+                    key={featured.id}
+                    project={featured.project}
+                    desc={featured.desc}
+                    href={featured.href}
+                    vid={featured.vid}
+                    tools={featured.tools}
                 />
             </div>
 
@@ -23,10 +23,10 @@ const ProjectsPage = () => {
                     <ProjectCard
                         key={item.id} // Unique key for each card
                         project={item.project}
-                        description={item.description}
+                        desc={item.desc}
                         href={item.href}
-                        imageSrc={item.imageSrc}
-                        toolIcons={item.toolIcons}
+                        img={item.img}
+                        tools={item.tools}
                     />
                 ))}
             </div>

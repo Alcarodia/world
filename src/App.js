@@ -10,18 +10,20 @@ import { Route, Routes, NavLink } from 'react-router-dom';
 function App() {
   /*** Methods ***/
   const [color, setColor] = useState('#424242');
+  const [image, setImage] = useState('');
 
-  function HandleNavigation({ color, Path }) {
+  function HandleNavigation({ color, image, Path }) {
     useEffect(() => {
       setColor(color);
-    }, [color]);
+      setImage(image);
+    }, [color, image]);
 
     return <Path />;
   }
 
   /*** Return ***/
   return (
-    <div className="Background" style={{ backgroundColor: color }}>
+    <div className="Background" style={{ backgroundColor: color, backgroundImage: image }}>
       <div className="Page">
         {/* Navbar */}
         <div className="Sidebar">
@@ -54,11 +56,11 @@ function App() {
         {/* Content */}
         <main className="Content">
           <Routes>
-            <Route path="about"    element={<HandleNavigation color={'#77DD77'} Path={AboutPage}    />} />
-            <Route path="projects" element={<HandleNavigation color={'#E8CE72'} Path={ProjectsPage} />} />
-            <Route path=""         element={<HandleNavigation color={'#001F3F'} Path={HomePage}     />} />
-            <Route path="author"   element={<HandleNavigation color={'#FD8787'} Path={AuthorPage}   />} />
-            <Route path="contact"  element={<HandleNavigation color={'#424242'} Path={ContactPage}  />} />
+            <Route path="about"    element={<HandleNavigation color={'#77DD77'} image={''}                            Path={AboutPage}    />} />
+            <Route path="projects" element={<HandleNavigation color={'#E8CE72'} image={''}                            Path={ProjectsPage} />} />
+            <Route path=""         element={<HandleNavigation color={'#001F3F'} image={'url("/images/home/bg.webp")'} Path={HomePage}     />} />
+            <Route path="author"   element={<HandleNavigation color={'#FD8787'} image={''}                            Path={AuthorPage}   />} />
+            <Route path="contact"  element={<HandleNavigation color={'#424242'} image={''}                            Path={ContactPage}  />} />
           </Routes>
         </main>
       </div>
