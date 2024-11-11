@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/world/static/css/main.fe60e4de.css",
-    "main.js": "/world/static/js/main.f02428a6.js",
-    "static/media/Alcarodian.otf": "/world/static/media/Alcarodian.96e08218027fff41bd8f.otf",
-    "static/media/alcarodia-piece.svg": "/world/static/media/alcarodia-piece.6ee639f534df93dafc87.svg",
-    "static/media/ring-piece.svg": "/world/static/media/ring-piece.01d95f8dae01be4b673f.svg",
-    "static/media/world-piece.svg": "/world/static/media/world-piece.345ed4eb105d9466f7f1.svg",
-    "index.html": "/world/index.html",
-    "main.fe60e4de.css.map": "/world/static/css/main.fe60e4de.css.map",
-    "main.f02428a6.js.map": "/world/static/js/main.f02428a6.js.map"
+    "main.css": "/static/css/main.333399e3.css",
+    "main.js": "/static/js/main.dc86a634.js",
+    "static/js/453.a0345f9e.chunk.js": "/static/js/453.a0345f9e.chunk.js",
+    "static/media/Alcarodian.otf": "/static/media/Alcarodian.96e08218027fff41bd8f.otf",
+    "static/media/alcarodia-piece.svg": "/static/media/alcarodia-piece.6ee639f534df93dafc87.svg",
+    "static/media/ring-piece.svg": "/static/media/ring-piece.01d95f8dae01be4b673f.svg",
+    "static/media/world-piece.svg": "/static/media/world-piece.345ed4eb105d9466f7f1.svg",
+    "index.html": "/index.html",
+    "main.333399e3.css.map": "/static/css/main.333399e3.css.map",
+    "main.dc86a634.js.map": "/static/js/main.dc86a634.js.map",
+    "453.a0345f9e.chunk.js.map": "/static/js/453.a0345f9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe60e4de.css",
-    "static/js/main.f02428a6.js"
+    "static/css/main.333399e3.css",
+    "static/js/main.dc86a634.js"
   ]
 }
