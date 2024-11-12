@@ -58,7 +58,7 @@ function App() {
           <Routes>
             <Route path="about"    element={<HandleNavigation color={'#77DD77'} image={''} Path={AboutPage}    />} />
             <Route path="projects" element={<HandleNavigation color={'#E8CE72'} image={''} Path={ProjectsPage} />} />
-            <Route path=""         element={<HandleNavigation color={'#001F3F'} image={''} Path={HomePage} />} />
+            <Route path=""         element={<HandleNavigation color={'#001F3F'} image={'url("https://www.transparenttextures.com/patterns/egg-shell.png")'} Path={HomePage} />} />
             <Route path="author"   element={<HandleNavigation color={'#FD8787'} image={''} Path={AuthorPage}   />} />
             <Route path="contact"  element={<HandleNavigation color={'#424242'} image={''} Path={ContactPage}  />} />
           </Routes>
