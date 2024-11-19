@@ -8,10 +8,10 @@ const ProjectCard = ({ project, desc, href, img, tools }) => {
                 { /* Image */ }
                 {href !== "" ?
                     <a href={href} target="_blank" rel="noopener noreferrer">
-                        <img className={Global.AlcarodianImage} src={img} alt="" />
+                        <img className={[Global.AlcarodianImage, Global.BorderTopFull].join(' ')} src={img} alt="" />
                     </a>
                     : /* ELSE */
-                    <img className={Global.AlcarodianImage} src={img} alt="" />
+                    <img className={[Global.AlcarodianImage, Global.BorderTopFull].join(' ')} src={img} alt="" />
                 }
 
                 { /* Content */ }

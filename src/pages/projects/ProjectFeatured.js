@@ -13,7 +13,7 @@ const ProjectFeatured = ({ project, desc, href, vid, tools }) => {
                         loop
                         muted
                         playsInline
-                        className={Global.AlcarodianImage}
+                        className={[Global.AlcarodianImage, Global.BorderTopFull].join(' ')}
                     />
                 </a>
 

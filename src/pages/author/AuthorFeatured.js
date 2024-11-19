@@ -5,7 +5,7 @@ const AuthorFeatured = ({ author, desc, img, socials }) => {
     return (
         <div className={[Global.Card, Style.AuthorPageContentCardFeatured].join(' ')}>
             { /* Image */ }
-            <img className={Global.AlcarodianImage} src={img} alt="" />
+            <img className={[Global.AlcarodianImage, Global.BorderTopFull].join(' ')} src={img} alt="" />
 
             { /* Content */ }
             <div className={Style.AuthorPageContentCardDescription}>

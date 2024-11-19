@@ -19,25 +19,32 @@
 }
 
 .AlcarodianTitle {
-    color: white;
+    color: #fff;
+    font-family: Alcarodian;
     font-size: 75%;
-    text-align: center;
-    font-family: 'Alcarodian';
-    margin-right: -5px;  /* ? Counters the extra ws letter-spacing adds, uncentering the text */
     letter-spacing: 5px;
+    margin-right: -5px;
+    text-align: center;
 }
 
-.AlcarodianImage, .AuthorImage, .ToolIcon {
+.AlcarodianImage, .ToolIcon {
     width: 100%;
     filter: grayscale(100%);
     transition: filter 0.3s ease-in-out;
+}
+
+.AlcarodianBook {
+    display: flex;
+}
+
+.BorderFull {
+    border-radius: 10px;
+}
+
+.BorderTopFull {
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-}
-
-.AuthorImage {
-    border-radius: 0px;
 }
 
 .ToolIcon {
@@ -46,14 +53,13 @@
     max-width: 48px;
     max-height: 48px;
     object-fit: contain;
-    border-radius: 0px;
 }
 
-.Card, .Card:hover .AlcarodianImage, .AuthorImage:hover, .Card:hover .ToolIcon {
+.Card, .Card:hover .AlcarodianImage, .Card:hover .ToolIcon {
     animation: colorize 0.5s normal forwards;
 }
 
-.Card:hover {
+.Card:hover, .AlcarodianBook {
     animation: glow 1.5s infinite alternate;
 }
 

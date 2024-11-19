@@ -1,11 +1,10 @@
 import Global from '../Global.module.css';
-import Style from './AuthorPage.module.css';
 
 const AuthorCard = ({img}) => {
     return (
-        <div className={[Global.Card, Style.AuthorPageContentCard].join(' ')}>
+        <div className={Global.Card}>
             { /* Image */ }
-            <img className={Global.AuthorImage} src={img} alt="" />
+            <img className={Global.AlcarodianImage} src={img} alt="" />
         </div>
     );
 };
