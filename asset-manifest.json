@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/world/static/css/main.f64be774.css",
-    "main.js": "/world/static/js/main.3b7f2481.js",
+    "main.css": "/world/static/css/main.587b0a64.css",
+    "main.js": "/world/static/js/main.8d877cda.js",
     "static/js/453.90ec8cea.chunk.js": "/world/static/js/453.90ec8cea.chunk.js",
     "static/media/Alcarodian.otf": "/world/static/media/Alcarodian.96e08218027fff41bd8f.otf",
     "static/media/alcarodia-piece.svg": "/world/static/media/alcarodia-piece.6ee639f534df93dafc87.svg",
     "static/media/ring-piece.svg": "/world/static/media/ring-piece.01d95f8dae01be4b673f.svg",
     "static/media/world-piece.svg": "/world/static/media/world-piece.345ed4eb105d9466f7f1.svg",
+    "static/media/Evergreen-Leaves.webp": "/world/static/media/Evergreen-Leaves.d103afc29d2c83e3c49c.webp",
     "index.html": "/world/index.html",
-    "main.f64be774.css.map": "/world/static/css/main.f64be774.css.map",
-    "main.3b7f2481.js.map": "/world/static/js/main.3b7f2481.js.map",
+    "main.587b0a64.css.map": "/world/static/css/main.587b0a64.css.map",
+    "main.8d877cda.js.map": "/world/static/js/main.8d877cda.js.map",
     "453.90ec8cea.chunk.js.map": "/world/static/js/453.90ec8cea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f64be774.css",
-    "static/js/main.3b7f2481.js"
+    "static/css/main.587b0a64.css",
+    "static/js/main.8d877cda.js"
   ]
 }
