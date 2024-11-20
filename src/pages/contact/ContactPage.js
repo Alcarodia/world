@@ -5,7 +5,7 @@ const ContactPage = () => {
         <div className={Style.ContactPageBackground}>
             {/* Content here */}
             <div className={Style.ContactPage}>
-                <h2> Content </h2>
+                <h1 className={Style.Email}>CAFERINOGRAAL@HOTMAIL.COM</h1>
             </div>
         </div>
     );

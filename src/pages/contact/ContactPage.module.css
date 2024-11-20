@@ -1,4 +1,32 @@
 .ContactPage {
-    border: 1px solid black;
-    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Email {
+    color: white;
+    cursor: default;
+    font-size: 3vw;
+    font-family: 'Alcarodian', sans-serif;
+    animation: shadow-pulse 6s infinite ease-in-out, breathe 6s infinite ease-in-out;
+    transition: color 0.3s ease-out;
+}
+
+.Email:hover {
+    color: #B58863;
+}
+
+@keyframes shadow-pulse {
+    50% {
+        text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@keyframes breathe {
+    50% {
+        letter-spacing: 0.01em;
+    }
 }
