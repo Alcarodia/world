@@ -92,21 +92,21 @@ export const old_world_data = [
                 id: 1001,
                 title: "ALCARODIAN TALES",
                 subtitle: "DRAGONRIDER",
-                summary: "...",
+                summary: "THE WARRIORS OF THE SKY PREPARE FOR A JOURNEY THAT WILL CHANGE EVERYTHING",
                 emblemColor: "white",
                 textColor: "white",
                 cardColor: "#FF4081",
-                url: "",
+                url: "https://www.amazon.com/dp/B0DQ2MT7SQ",
             },
             es: {
                 id: 1002,
                 title: "CUENTOS ALCARODIANOS",
                 subtitle: "DRAGONRIDER",
-                summary: "...",
+                summary: "LOS GUERREROS DEL CIELO SE PREPARAN PARA UN VIAJE QUE LO CAMBIARÁ TODO",
                 emblemColor: "brightness(0) saturate(100%) invert(63%) sepia(69%) saturate(6752%) hue-rotate(316deg) brightness(101%) contrast(105%)",
                 textColor: "#FF4081",
                 cardColor: "#FFFFFF",
-                url: "",
+                url: "https://www.amazon.com/dp/B0DPRFGHSW",
             },
         },
         media: {}
@@ -116,6 +116,6 @@ export const old_world_data = [
 export const old_world_years = [
     {
         // ? ALCARODIAN TALES DRAGONRIDER
-        title: "COMING SOON"
+        title: "~100 B.D."
     }
 ]
