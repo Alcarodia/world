@@ -86,7 +86,7 @@ export const movies = [
     },
     {
         id: 2,
-        img: "images/author/movies/country.webp"
+        img: "images/author/movies/lotr.webp"
     },
     {
         id: 3,
@@ -114,11 +114,11 @@ export const movies = [
     },
     {
         id: 9,
-        img: "images/author/movies/void.webp"
+        img: "images/author/movies/country.webp"
     },
     {
         id: 10,
-        img: "images/author/movies/substance.webp"
+        img: "images/author/movies/madmax.webp"
     },
     {
         id: 11,
@@ -126,7 +126,7 @@ export const movies = [
     },
     {
         id: 12,
-        img: "images/author/movies/come.webp"
+        img: "images/author/movies/watchmen.webp"
     },
     {
         id: 13,
@@ -134,7 +134,7 @@ export const movies = [
     },
     {
         id: 14,
-        img: "images/author/movies/salo.webp"
+        img: "images/author/movies/interstellar.webp"
     },
 ];
 
@@ -193,7 +193,7 @@ export const anime_movies = [
     },
     {
         id: 14,
-        img: "images/author/anime movies/midori.webp"
+        img: "images/author/anime movies/howl.webp"
     },
 ];
 
@@ -417,7 +417,7 @@ export const cartoons = [
     },
     {
         id: 11,
-        img: "images/author/cartoons/drawn.webp"
+        img: "images/author/cartoons/avatar.webp"
     },
     {
         id: 12,
